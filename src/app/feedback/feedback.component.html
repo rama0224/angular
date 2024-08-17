@@ -1,0 +1,16 @@
+<h1 style="text-align: center">Feedback</h1>
+<form name="ff" id="ff" method="post" #myform="ngForm"(ngSubmit)="saveForm(myform.value)">
+    <input type="radio" id="bad" name="feedback" value="Bad" ngModel>
+    <label for="bad">Bad </label><br>
+    
+    <input type="radio" id="Good" name="feedback" value="Good">
+    <label for="Good">Good</label><br>
+    
+    <input type="radio" id="Exellent" name="feedback" value="Exellent" ngModel>
+    <label for="Exellent">Exellent</label><br><br>
+    <label for="comments">Comments : </label>
+    <input type="text" id="comments" name="feedback" ngModel>
+
+    
+    <button type="submit" name="Submit">Submit</button>
+</form>

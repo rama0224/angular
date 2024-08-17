@@ -1,0 +1,17 @@
+.header{
+    border: 1px rosybrown solid;
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+}
+.name{
+    display: inline;
+    position: absolute;
+    margin-left: 200px;
+}
+.total{
+    display: inline;
+    font-size: 30px;
+    position: relative;
+    margin-left: 200px;
+}
